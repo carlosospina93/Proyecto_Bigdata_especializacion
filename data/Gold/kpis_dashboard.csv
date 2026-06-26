@@ -1,0 +1,9 @@
+kpi_name,kpi_value,kpi_unit
+Total Customers,7043.0,count
+Churn Rate,26.54,percentage
+Avg Monthly Revenue,64.76,currency
+Avg Customer Lifetime Value,4400.3,currency
+Total Revenue,16056168.7,currency
+Avg Tenure (months),32.37,months
+High Risk Customers,2559.0,count
+High Value Customers,4676.0,count

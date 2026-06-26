@@ -1,0 +1,4 @@
+Contract,total_customers,churned_customers,avg_monthly_charges,avg_total_charges,avg_tenure,total_revenue,churn_rate
+Month-to-month,3875,1655,66.4,1369.25,18.04,5305861.49999999,42.71
+One year,1473,166,65.05,3032.62,42.04,4467053.500000003,11.27
+Two year,1695,48,60.77,3706.93,56.74,6283253.7,2.83

@@ -1,0 +1,21 @@
+Churn_Reason,total_customers,avg_cltv_lost,avg_tenure
+Attitude of support person,192,4143.05,18.09
+Competitor offered higher download speeds,189,4164.74,19.54
+Competitor offered more data,162,4215.91,19.82
+Don't know,154,4105.35,16.8
+Competitor made better offer,140,4204.21,15.86
+Attitude of service provider,135,4223.23,17.84
+Competitor had better devices,130,4130.72,15.97
+Network reliability,103,4077.47,17.0
+Product dissatisfaction,102,4208.71,21.13
+Price too high,98,4226.59,18.5
+Service dissatisfaction,89,4206.91,18.12
+Lack of self-service on Website,88,4156.16,15.24
+Extra data charges,57,3852.28,21.58
+Moved,53,3830.13,19.28
+Long distance charges,44,4265.09,19.48
+Limited range of services,44,4292.8,12.57
+Lack of affordable download/upload speed,44,4174.8,20.11
+Poor expertise of phone support,20,3900.85,19.4
+Poor expertise of online support,19,3763.05,14.32
+Deceased,6,4295.83,8.83

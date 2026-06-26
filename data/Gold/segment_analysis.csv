@@ -1,0 +1,5 @@
+customer_segment,total_customers,churned_customers,avg_monthly_charges,avg_cltv,avg_tenure,total_revenue,churn_rate
+High Value - Low Risk,3112,142,64.85,5123.36,43.39,9519954.000000019,4.56
+High Value - High Risk,1564,915,70.78,5087.96,31.34,3741713.5499999933,58.5
+Low Value - Low Risk,1372,118,55.77,2993.82,20.48,1665243.3500000024,8.6
+Low Value - High Risk,995,694,67.41,2997.28,15.92,1129257.7999999998,69.75
