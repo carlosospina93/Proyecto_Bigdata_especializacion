@@ -1,0 +1,32 @@
+# Data files grandes
+data/raw/*.xlsx
+data/bronze/*.parquet
+data/silver/*.parquet
+data/gold/*.parquet
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Databricks
+.databricks/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
