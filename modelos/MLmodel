@@ -1,0 +1,71 @@
+artifact_path: dbfs:/databricks/mlflow-tracking/3024151240502872/logged_models/m-94f53fbaff594c34b59f5a25b8e3decd/artifacts
+databricks_runtime: client.5.7
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.8.1
+model_id: m-94f53fbaff594c34b59f5a25b8e3decd
+model_size_bytes: 307969
+model_uuid: m-94f53fbaff594c34b59f5a25b8e3decd
+prompts: null
+run_id: 3d478afc409e401eab2451d98b5a4d4f
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Tenure_Months", "required": true}, {"type":
+    "double", "name": "Monthly_Charges", "required": true}, {"type": "double", "name":
+    "Total_Charges", "required": true}, {"type": "long", "name": "CLTV", "required":
+    true}, {"type": "long", "name": "Churn_Score", "required": true}, {"type": "boolean",
+    "name": "Gender_Male", "required": true}, {"type": "boolean", "name": "Senior_Citizen_Yes",
+    "required": true}, {"type": "boolean", "name": "Partner_Yes", "required": true},
+    {"type": "boolean", "name": "Dependents_Yes", "required": true}, {"type": "boolean",
+    "name": "Phone_Service_Yes", "required": true}, {"type": "boolean", "name": "Multiple_Lines_No
+    phone service", "required": true}, {"type": "boolean", "name": "Multiple_Lines_Yes",
+    "required": true}, {"type": "boolean", "name": "Internet_Service_Fiber optic",
+    "required": true}, {"type": "boolean", "name": "Internet_Service_No", "required":
+    true}, {"type": "boolean", "name": "Online_Security_No internet service", "required":
+    true}, {"type": "boolean", "name": "Online_Security_Yes", "required": true}, {"type":
+    "boolean", "name": "Online_Backup_No internet service", "required": true}, {"type":
+    "boolean", "name": "Online_Backup_Yes", "required": true}, {"type": "boolean",
+    "name": "Device_Protection_No internet service", "required": true}, {"type": "boolean",
+    "name": "Device_Protection_Yes", "required": true}, {"type": "boolean", "name":
+    "Tech_Support_No internet service", "required": true}, {"type": "boolean", "name":
+    "Tech_Support_Yes", "required": true}, {"type": "boolean", "name": "Streaming_TV_No
+    internet service", "required": true}, {"type": "boolean", "name": "Streaming_TV_Yes",
+    "required": true}, {"type": "boolean", "name": "Streaming_Movies_No internet service",
+    "required": true}, {"type": "boolean", "name": "Streaming_Movies_Yes", "required":
+    true}, {"type": "boolean", "name": "Contract_One year", "required": true}, {"type":
+    "boolean", "name": "Contract_Two year", "required": true}, {"type": "boolean",
+    "name": "Paperless_Billing_Yes", "required": true}, {"type": "boolean", "name":
+    "Payment_Method_Credit card (automatic)", "required": true}, {"type": "boolean",
+    "name": "Payment_Method_Electronic check", "required": true}, {"type": "boolean",
+    "name": "Payment_Method_Mailed check", "required": true}, {"type": "boolean",
+    "name": "customer_segment_High Value - Low Risk", "required": true}, {"type":
+    "boolean", "name": "customer_segment_Low Value - High Risk", "required": true},
+    {"type": "boolean", "name": "customer_segment_Low Value - Low Risk", "required":
+    true}, {"type": "boolean", "name": "tenure_segment_Medium (13-36m)", "required":
+    true}, {"type": "boolean", "name": "tenure_segment_New (0-12m)", "required": true},
+    {"type": "boolean", "name": "spending_segment_Low Spender", "required": true},
+    {"type": "boolean", "name": "spending_segment_Medium Spender", "required": true},
+    {"type": "boolean", "name": "has_multiple_services_Yes", "required": true}, {"type":
+    "boolean", "name": "has_premium_support_Yes", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    2]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-24 02:48:57.257534'
